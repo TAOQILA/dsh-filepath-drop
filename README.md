@@ -4,6 +4,8 @@
 
 一个 [DeepSeek Harness](https://github.com/deepseek-ai/DeepSeek-Harness) 插件：开启后，会**接管并替换 DSH 自带的文件插入操作**——DSH 原本的行为是「把文件拖进窗口 = 作为附件上传」，启用本插件后，同一个拖放动作的结果变为「在当前会话输入框的**光标位置**插入该文件的**本地绝对路径文本**」，文件**不会真的被上传或嵌入**，只是被引用。
 
+![Social Preview](./social-preview.png)
+
 ![MIT](https://img.shields.io/badge/license-MIT-blue.svg) ![version](https://img.shields.io/badge/version-1.2.0-green.svg)
 
 ## 功能
