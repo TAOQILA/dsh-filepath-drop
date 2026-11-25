@@ -1,0 +1,5 @@
+# 把本插件插入 desktop profile 的插件树。
+# 关闭插件：在 DSH「设置 → 插件」中禁用，或给下面的条目增加 `disabled: true`。
+- insert:
+    - id: dsh-filepath-drop
+      name: dsh-filepath-drop
